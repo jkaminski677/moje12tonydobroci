@@ -27,6 +27,10 @@
       rel="stylesheet"
       href="assets/bootstrap/css/bootstrap-reboot.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="assets/web/assets/gdpr-plugin/gdpr-styles.css"
+    />
     <link rel="stylesheet" href="assets/tether/tether.min.css" />
     <link rel="stylesheet" href="assets/animatecss/animate.min.css" />
     <link rel="stylesheet" href="assets/dropdown/css/style.css" />
@@ -77,6 +81,23 @@
     />
   </head>
   <body>
+    <!-- Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-MPDVC9FZP6"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-MPDVC9FZP6");
+    </script>
+    <!-- /Analytics -->
+
     <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-a">
       <nav
         class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm"
@@ -213,14 +234,7 @@
           </div>
           <!--Right-->
           <div class="col-12 col-md-6">
-            <div class="google-map">
-              <iframe
-                frameborder="0"
-                style="border: 0"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZI5F_k6S1k46ujh0SNrapM89f7mJxd30&amp;q=Stanisława Wyspiańskiego 5A, 43-300 Bielsko-Biała"
-                allowfullscreen=""
-              ></iframe>
-            </div>
+            <div class="google-map"></div>
           </div>
         </div>
       </div>
@@ -252,7 +266,7 @@
                 type="hidden"
                 name="email"
                 data-form-email="true"
-                value="fp5K91VdqhX0EzRsuGxDqV14nOQJEBSHcOqhq0+zssu0szY85gullbbCKfY+l3xSnlR+FC4ppPDI5QCIkcG9EuYnfQ3OtdqpJVIP6+SXLbtoqs13NRxuxt7SBzdhaYvt"
+                value="ai2gHV8TMg0aJEmjCEEwnjFFXqhl+Y5PR3A3bDWmJeOtkN0pqwN2ibArUeN8SD1AP0h0uwxVHaI4OJGmyHgWyUd96MUQfXVE5+Y7e2fFVZZDnAjKqLdaVJ/vQvdStBq6"
               />
               <div class="row">
                 <div
@@ -335,6 +349,29 @@
                   </button>
                 </div>
               </div>
+              <span class="gdpr-block">
+                <label>
+                  <span class="textGDPR display-7" style="color: #a7a7a7"
+                    ><input
+                      type="checkbox"
+                      name="gdpr"
+                      id="gdpr-form1-d"
+                      required=""
+                    />By continuing you agree to our
+                    <a
+                      style="color: #149dcc; text-decoration: none"
+                      href="terms.html"
+                      >Terms of Service</a
+                    >
+                    and
+                    <a
+                      style="color: #149dcc; text-decoration: none"
+                      href="policy.html"
+                      >Privacy Policy</a
+                    >.</span
+                  >
+                </label>
+              </span>
             </form>
             <!---Formbuilder Form--->
           </div>
@@ -462,17 +499,17 @@
           src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
       /></a>
       <p style="margin: 0; text-align: center" class="display-7">
-        Made with Mobirise &#8204;
+        Designed with &#8204;
       </p>
-      <a
-        style="z-index: 1"
-        href="https://mobirise.com/offline-website-builder.html"
-        >Offline Web Page Creator</a
+      <a style="z-index: 1" href="https://mobirise.com">
+        Free Web Building Software</a
       >
     </section>
     <script src="assets/popper/popper.min.js"></script>
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>
+    <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>
     <script src="assets/tether/tether.min.js"></script>
     <script src="assets/smoothscroll/smooth-scroll.js"></script>
     <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
@@ -482,6 +519,18 @@
     <script src="assets/theme/js/script.js"></script>
     <script src="assets/formoid/formoid.min.js"></script>
 
+    <input
+      name="cookieData"
+      type="hidden"
+      data-cookie-customDialogSelector="null"
+      data-cookie-colorText="#424a4d"
+      data-cookie-colorBg="rgba(234, 239, 241, 0.99)"
+      data-cookie-textButton="Agree"
+      data-cookie-colorButton=""
+      data-cookie-colorLink="#424a4d"
+      data-cookie-underlineLink="true"
+      data-cookie-text="We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
+    />
     <div id="scrollToTop" class="scrollToTop mbr-arrow-up">
       <a style="text-align: center"
         ><i
