@@ -22,14 +22,9 @@
 }
 .mbr-gallery .icon-focus,
 .mbr-gallery .icon-video {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  top: calc(50% - 32px);
-  left: calc(11% - 24px);
-  /* border: 2px solid peru; */
+  top: calc(42% - 32px);
+  left: calc(15% - 24px);
   font-family: "MobiriseIcons" !important;
   font-size: 3rem !important;
   color: #fff;
@@ -37,7 +32,7 @@
   transition: 0.2s opacity ease-in-out;
   z-index: 5;
   text-align: center;
-  width: 90%;
+  width: 80%;
 }
 
 .mbr-gallery .icon-focus::before {
